@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    padding: 1px;
+    margin: 3px auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+table,tbody{
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+    border: .5px solid rgb(62, 62, 62);
+}
+table th{
+    font-weight: bold;
+    font-style: italic;
+}
+form{
+    text-align: center;
+    padding: 3px;
+    margin: 10px auto;   
+}
+input{
+    width: 40%;
+    height: 30px;
+    padding: 2px;
+    margin: 2px auto;
+    border: 1px solid burlywood;
+    text-align: center;
+}
+form legend{
+    text-align: center;
+    margin: 10px auto;
+}
+input[type=submit]{
+    width: 30%;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+input[type=submit]:hover{
+    background-color: rgb(253, 192, 100);
+}
